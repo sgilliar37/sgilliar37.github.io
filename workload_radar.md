@@ -1,6 +1,8 @@
+**Workload Radar**
+
 What it is:
 
-Team Workload shows how much open work each person is carrying across every team — not just what they are assigned, but everything where they are named as the Developer, Tester, or Designer too. That union is something no stock Jira report can group by, and it is the whole point of the app: spot who is overloaded, what is blocked, and what has gone stale.
+Workload Radar shows how much open work each person is carrying across every team — not just what they are assigned, but everything where they are named as the Developer, Tester, or Designer too. That union is something no stock Jira report can group by, and it is the whole point of the app: spot who is overloaded, what is blocked, and what has gone stale.
 
 It comes in two places: a compact dashboard gadget (a top-N view you add to a Jira dashboard) and the full-width Workload Radar page (everyone), reached from the Apps menu. Both show the same numbers.
 
@@ -12,7 +14,9 @@ Click a row to expand every ticket they are on.
 Click a ticket key to open it and edit fields inline.
 Narrow the view with the project filter, Open sprint toggle, and the search box; re-order with the Open / capacity sort.
 Switch light/dark with the theme button next to the title.
-Settings (admin)
+
+Settings (admin):
+
 Open Settings from the gear icon in the header. These are shared across the whole site, so only a Jira administrator can change them — everyone else sees them read-only. Each change records who made it and when.
 
 Capacity field (the “developer” field). The one field the capacity number counts per person — your “who is carrying the most development work” metric. Defaults to the Developer field; pick any user field (e.g. a differently-named “Engineer” field) to count that instead.
