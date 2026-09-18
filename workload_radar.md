@@ -1,9 +1,11 @@
-What it is
+What it is:
+
 Team Workload shows how much open work each person is carrying across every team — not just what they are assigned, but everything where they are named as the Developer, Tester, or Designer too. That union is something no stock Jira report can group by, and it is the whole point of the app: spot who is overloaded, what is blocked, and what has gone stale.
 
 It comes in two places: a compact dashboard gadget (a top-N view you add to a Jira dashboard) and the full-width Workload Radar page (everyone), reached from the Apps menu. Both show the same numbers.
 
-Quick start
+Quick start:
+
 Open the Workload Radar page from the Jira Apps menu, or add the Team Workload gadget to a dashboard.
 Each row is a person; the badges on the right summarise their open work.
 Click a row to expand every ticket they are on.
@@ -27,12 +29,14 @@ Blocked — tickets flagged/blocked.
 Stale — untouched for at least the stale threshold.
 Team chips under a name show which teams the person's work spans — click a chip to filter their tickets to that team. Re-order the whole list with the Open / capacity sort toggle. Narrow scope with the project filter, Open sprint (only work in an active sprint), and the search box (matches people and team names). Your filter, sort, and theme choices are remembered per browser.
 
-Opening & editing a ticket
+Opening & editing a ticket:
+
 Click a ticket key to open the details modal. It shows every field, with read-only ones displayed for context. Click any editable field to edit it in place — it saves when you click away or press Enter, exactly like Jira's own inline edit. Descriptions and comments render as rich text.
 
 Close the modal with the ✕ in the top corner. Pressing Esc or clicking the backdrop is intentionally disabled so a stray key never discards an edit in progress. Every read and edit runs as you, so Jira enforces your own permissions — you can only change what you could change in Jira directly.
 
-Tips & FAQ
+Tips & FAQ:
+
 Why is someone counted on a ticket they are not assigned to? Because they are named as its Developer, Tester, or Designer. Counting that hidden load is the reason the app exists.
 Who can see what? The app runs as the viewing user, so you only ever see — and edit — the work you can already access in Jira. It adds no privilege of its own.
 What does it store? No issue data. Reports are computed live from Jira and discarded; only the admin settings above are saved (in Atlassian's own storage, no external service).
